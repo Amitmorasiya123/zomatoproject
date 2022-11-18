@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zomato</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        .zopo {
+            height: auto;
+            position: relative;
+        }
+
+        .zopo img {
+            height: 470px;
+            width: 100%;
+            display: block;
+        }
+
+        .zohe {
+            color: rgb(255, 255, 255);
+            font-size: 100px;
+            top: 60px;
+            position: absolute;
+            text-align: center;
+        }
+
+        .zopa {
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            top: 180px;
+            position: absolute;
+            text-align: center;
+        }
+
+        .zogena {
+            width: 100%;
+        }
+
+        .zoge {
+            color: white;
+            top: 0%;
+            position: absolute;
+            top: 21px;
+            font-size: 18px;
+            width: 50%;
+            left: 14%;
+        }
+
+        .zona {
+            font-size: 20px;
+            top: 21px;
+            position: absolute;
+            width: 50%;
+            left: 50%;
+        }
+
+        .zoli {
+            text-align: center;
+        }
+
+        .zoli2 {
+            text-align: end;
+        }
+
+        .zona ul {
+            display: flex;
+
+            width: 80%;
+        }
+
+        .zona li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .zose {
+            width: 50%;
+            position: absolute;
+            top: 270px;
+            text-align: center;
+            right: 25%;
+            color: white;
+            border: none;
+        }
+
+        .zose input {
+            border-radius: 9px;
+            padding: 18px 20px;
+            color: white;
+            position: relative;
+            font-size: 20px;
+        }
+
+        .zoi {
+            display: flex;
+            width: 100%;
+        }
+
+        .a {
+            width: 50%;
+            text-align: end;
+            margin-right: .5%;
+
+        }
+
+        .a img {
+            height: 225px;
+            width: 570px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-top: 7%;
+            margin-bottom: 0%;
+        
+        }
+
+        .a img:hover {
+            height: 235px;
+            width: 580px;
+        }
+
+        .a h3 {
+            font-size: 25px;
+        }
+
+        .a p {
+            font-size: 20px;
+        }
+
+        .ahp {
+            border: 2px solid rgb(199, 199, 199);
+            width: 60.5%;
+            text-align: start;
+            padding-left: 3%;
+            margin-left: 39.5%;
+            border-radius: 6px;
+            padding-top: .5%;
+            padding-bottom: 1%;
+        }
+
+        .b {
+            width: 50%;
+            margin-left: .5%;
+        }
+
+        .b img {
+            height: 225px;
+            width: 570px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            margin-top: 7%;
+
+        }
+
+        .b img:hover {
+            height: 235px;
+            width: 590px;
+        }
+
+        .b h3 {
+            font-size: 25px;
+        }
+
+        .b p {
+            font-size: 20px;
+        }
+
+        .bhp {
+            border: 2px solid rgb(199, 199, 199);
+            width: 60.5%;
+            padding-left: 3%;
+            border-radius: 6px;
+            padding-top: .5%;
+            padding-bottom: 1%;
+            margin-top: 0%;
+        }
+
+        .co1 {
+            font-size: 45px;
+            Padding-left: 15%;
+            Padding-top: 4%;
+        }
+
+        .co2 {
+            font-size: 20px;
+            Padding-left: 15%;
+            Padding-top: 1px;
+            position: absolute;
+        }
+
+        .co3 {
+            font-size: 20px;
+            Padding-left: 69.8%;
+            color: red;
+        }
+
+
+        .coi img {
+            width: 84%;
+            padding-left: 15%;
+            padding-top: 4%;
+        }
+
+        .zolo {
+            font-size: 50px;
+            padding-left: 15%;
+            padding-top: 6%;
+        }
+
+        .table {
+            width: 84.5%;
+            padding-top: 3%;
+            padding-left: 15%;
+            margin: 10px;
+        }
+
+        .table td {
+            border: 2px solid rgb(49, 47, 47);
+            width: 25%;
+            padding: 22px;
+            border-radius: 8px;
+            margin-left: 1
+        }
+
+        .zoapi img {
+            height: 500px;
+            width: 400px;
+            margin-left: 40%;
+            margin-top: 100px;
+        }
+
+        .zoap {
+            background-color: rgb(244, 242, 227);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        .get {
+            font-size: 60px;
+            padding-top: 7%;
+            margin-right: 10%;
+        }
+
+        .will {
+            font-size: 30px;
+            padding-top: 4%;
+            margin-right: 10%;
+        }
+
+        .ex {
+            font-size: 40px;
+            padding-left: 15%;
+            padding-top: 4%;
+        }
+
+        .p {
+            font-size: 40px;
+            padding-left: 15%;
+            padding-top: 2%;
+        }
+
+        .a1 {
+            font-size: 30px;
+            padding-top: 2%;
+            border: 1px solid rgb(184, 178, 178);
+            border-radius: 5px;
+            margin-top: 1%;
+            padding-bottom: 1.5%;
+            width: 90%;
+            padding-left: 1.5%;
+        }
+
+        .a2 {
+            font-size: 30px;
+            padding-top: 2%;
+            border: 1px solid rgb(184, 178, 178);
+            border-radius: 5px;
+            margin-top: 1%;
+            padding-bottom: 1.5%;
+            width: 90%;
+            padding-left: 1.5%;
+        }
+
+        .a3 {
+            font-size: 30px;
+            padding-top: 2%;
+            border: 1px solid rgb(184, 178, 178);
+            border-radius: 5px;
+            margin-top: 1%;
+            padding-bottom: 1.5%;
+            width: 90%;
+            padding-left: 1.5%;
+        }
+
+        .a4 {
+            font-size: 30px;
+            padding-top: 2%;
+            border: 1px solid rgb(184, 178, 178);
+            border-radius: 5px;
+            margin-top: 1%;
+            padding-bottom: 1.5%;
+            width: 90%;
+            padding-left: 1.5%;
+        }
+        .ftr{
+            margin-top: 100px;
+        }
+        .dummy
+        {
+            font-family: cursive;
+            /* font-family: 'Times New Roman', Times, serif; */
+            font-size: 30px;
+            margin-top: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="zopo">
+        <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="" srcset="">
+    </div>
+    <div class="zohe"><b>zomato</b></div>
+    <div class="zopa">
+        <p>Discover the best food & drinks in Ahmedabad</p>
+    </div>
+    <div class="zogena">
+        <div class="zoge">Get the App</div>
+        <div class="zona">
+            <ul>
+                <li class="zoli"><a href="#">Investor Relations</a></li>
+                <li class="zoli2"><a href="#">Add Restaurant</a></li>
+                <li class="zoli"><a href="#">Log in</a></li>
+                <li class="zoli4"><a href="#">Sign up</a></li>
+            </ul>
+        </div>
+    </div>
+   <div class="zose"><input type="search" placeholder="Search for resturant, cuisine or a dish"></div>
+    <div class="zoi">
+        <div class="a"><img
+                src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                alt="" srcset="">
+            <div class="ahp">
+                <h3>Order Online</h3>
+                <P>Stey home and order to your doorstep</P>
+            </div>
+        </div>
+        <div class="b"><img
+                src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                alt="" srcset="">
+            <div class="bhp">
+                <h3>Dining</h3>
+                <p>View the city's favourite dining venues</p>
+            </div>
+        </div>
+    </div>
+    <div class="co">
+        <div class="co1">
+            <p><b>collection</b></p>
+        </div>
+        <div class="co2">
+            <p>Explore curatd lists of top restaurant,cafes,and bars in Ahmedabad,based on trends</p>
+        </div>
+        <div class="co3">
+            <p>All collection in Ahmedabad</p>
+        </div>
+    </div>
+    <div>
+        <div class="coi"><img src="./images/food corner/zomato.jpg" alt="" srcset=""></div>
+    </div>
+    <div class="zolo">
+        <p>Popular localities in and around <b>Ahmedabad</b></p>
+    </div>
+    <div class="table">
+        <table>
+            <tbody>
+                <tr>
+                    <td>Bodakdev</td>
+                    <td>Navaravgpura</td>
+                    <td>Prahalad nagar</td>
+                </tr>
+                <tr>
+                    <td>Satalite</td>
+                    <td>Vastrapur</td>
+                    <td>CG road</td>
+                </tr>
+                <tr>
+                    <td>Gurukul</td>
+                    <td>Thaltej</td>
+                    <td>see more</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="zoap">
+        <div class="zoapi"><img src=https://b.zmtcdn.com/data/o2_assets/a500ffc2ab483bc6a550aa635f4e55531648107832.png
+                alt="" srcset=""></div>
+        <div>
+            <!-- <p class="get">get the zomato apps</p>
+            <p class="will">will send you a link,open it on your phone to download <br>the app</p> -->
+            <div class="dummy">
+                <!-- <input type="radio">email
+                <input type="radio">phone -->
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatibus ratione voluptates, quo cum quas cumque quaerat reprehenderit temporibus? Est hic a molestias ullam aspernatur sit tempora quibusdam suscipit fuga, iusto deserunt voluptate necessitatibus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus autem esse id, repellat at vitae mollitia dignissimos. Voluptate quod culpa odio provident dicta?
+            </div>
+        </div>
+    </div>
+    <div class="chart">
+        <p class="ex"><B>Explore options near me</B></p>
+        <div class="p">
+            <p class="a1">Popular cuisines near me </p>
+            <p class="a2">Popular restuarant types near me</p>
+            <p class="a3">Top Restaurant Chains</p>
+            <p class="a4">Cities we deliver to</p>
+        </div>
+    </div>
+    <div class="ftr"><img src="./images/food corner/images 6.jpg" alt="" srcset=""></div>
+</body>
+</html>
